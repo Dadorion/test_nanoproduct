@@ -20,7 +20,6 @@ async function startApp() {
          .catch(err => { console.log(err) })
       app.listen(PORT, () => {
          console.log('SERVER WORKS ON PORT ' + PORT)
-         console.log('|||||||||||||||||||||||||||||')
       })
    }
    catch (e) { console.log(e) }

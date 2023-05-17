@@ -1,6 +1,5 @@
 import User from "../models/User.js"
 import Doctor from "../models/Doctor.js"
-import logger from "../logger/logger.js"
 
 class registrationController {
 
